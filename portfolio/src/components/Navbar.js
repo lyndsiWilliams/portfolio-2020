@@ -1,34 +1,28 @@
 // React
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import HomeRounded from '@material-ui/icons/HomeRounded';
+import PermMediaRounded from '@material-ui/icons/PermMediaRounded';
+import ContactMailRounded from '@material-ui/icons/ContactMailRounded';
 
-const useStyles = makeStyles({
-  root: {
-    width: 500,
-  },
-});
 
 export const Navbar = () => {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   return (
     <BottomNavigation
       value={value}
       onChange={(event, newValue) => {
+        console.log("newValue: ", newValue)
         setValue(newValue);
       }}
       showLabels
-      className={classes.root}
+      className="navbar-container"
     >
-      <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+      <BottomNavigationAction href="/" label="Home" icon={<HomeRounded />} />
+      <BottomNavigationAction href="/projects" label="Projects" icon={<PermMediaRounded />} />
+      <BottomNavigationAction href="/contact" label="Contact" icon={<ContactMailRounded />} />
     </BottomNavigation>
   );
 };
