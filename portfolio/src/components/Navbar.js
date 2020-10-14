@@ -20,7 +20,7 @@ export const Navbar = () => {
       showLabels
       className="navbar-container"
     >
-      <BottomNavigationAction href="/" label="Home" icon={<HomeRounded />} />
+      <BottomNavigationAction href="/" label="About Me" icon={<HomeRounded />} />
       <BottomNavigationAction href="/projects" label="Projects" icon={<PermMediaRounded />} />
       <BottomNavigationAction href="/contact" label="Contact" icon={<ContactMailRounded />} />
     </BottomNavigation>
