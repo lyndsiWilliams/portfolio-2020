@@ -1,15 +1,26 @@
 .card-wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-title {
+  border: 4px solid black;
+  border-radius: 25px;
+  background-image: linear-gradient(#ddd7ff, #701dd6);
+  box-shadow: 6px 6px rgba(0,0,0,.4);
+  height: fit-content;
+  width: 700px;
+  margin: 1% 0;
 }
 
 .intro-card {
   width: 700px;
-  margin: 3% 5%;
+  margin: 1% 0;
   padding-bottom: 2%;
   border: 4px solid black;
   border-radius: 25px;
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(black, #ddd7ff);
   box-shadow: 6px 6px rgba(0,0,0,.4);
 }
 
@@ -27,6 +38,61 @@
   opacity: .7;
 }
 
-.skills {
+.skills, .experience, .education {
   margin: 5%;
+}
+
+.education p, .experience p, h4 {
+  text-align: left;
+}
+
+.experience-btns {
+  display: flex;
+  flex-flow: column;
+}
+
+.experience-bullets {
+  line-height: 1em;
+}
+
+@media(max-width: 700px) {
+  .name-title {
+    width: 500px;
+  }
+  
+  .intro-card {
+    width: 500px;
+  }
+
+  .home-pic {
+    width: 400px;
+  }
+}
+
+@media(max-width: 500px) {
+  .name-title {
+    width: 400px;
+  }
+  
+  .intro-card {
+    width: 400px;
+  }
+
+  .home-pic {
+    width: 300px;
+  }
+}
+
+@media(max-width: 400px) {
+  .name-title {
+    width: 350px;
+  }
+  
+  .intro-card {
+    width: 350px;
+  }
+
+  .home-pic {
+    width: 250px;
+  }
 }
