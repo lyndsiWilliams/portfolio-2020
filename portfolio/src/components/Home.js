@@ -18,13 +18,34 @@ export const Home = () => {
         <section className="intro-card">
             <img src={meBlue} alt="Lyndsi Kay Williams" className="home-pic" />
             <div className="text-wrapper">
+              <div className="artifacts">
+                <a
+                  href="https://www.linkedin.com/in/lyndsiwilliams/"
+                  target="_blank"
+                >LinkedIn</a> | 
+                <a
+                  href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/edit?usp=sharing"
+                  target="_blank"
+                >Resume</a> | 
+                <a
+                  href="mailto:lyndsikaywilliams@gmail.com"
+                  target="_blank"
+                >Email</a> | 
+                <a
+                  href="https://github.com/lyndsiWilliams"
+                  target="_blank"
+                >GitHub</a>
+              </div>
+              <section className="intro-text">
+                I am a full-stack web developer with a strong love for Front End. My passion for programming shows in my late-night adventures getting lost in my latest project. I ensure sustainable working practices by investing in breaks that typically involve video games. The Pomodoro technique will save your life in this career!
+              </section>
               <section className="skills">
                 <h3>♦ Skills ♦</h3>
                 <p>React/Redux | Jest/Cypress Unit Testing | RESTful API | Deployment | Git | NodeJS | Express | SQLite3 | Javascript | Python | HTML | CSS | LESS/SASS</p>
               </section>
               <section className="experience">
                 <h3>♦ Experience ♦</h3>
-                <p style={{ textAlign: "center", color: "purple", fontSize: "1.2em", fontFamily: "Lemonada" }}>Click below for details!</p>
+                <p style={{ textAlign: "center", color: "#701dd6", fontSize: "1.2em", fontFamily: "Lemonada" }}>Click each job for details!</p>
                 <div className="experience-btns">
                   <TeamLead />
                   <POC />

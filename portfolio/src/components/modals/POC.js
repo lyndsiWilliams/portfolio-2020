@@ -58,7 +58,7 @@ export default function POC() {
       </Button>
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle onClose={handleClose}>
-          PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013
+        <span style={{ fontFamily: "Lemonada" }}>PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">

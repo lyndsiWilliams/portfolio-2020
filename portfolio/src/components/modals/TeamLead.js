@@ -57,8 +57,8 @@ export default function TeamLead() {
         • Lambda School •<br/>Team Lead
       </Button>
       <Dialog onClose={handleClose} open={open}>
-        <DialogTitle onClose={handleClose}>
-          Lambda School<br/>March 2020 - June 2020
+        <DialogTitle onClose={handleClose} >
+          <span style={{ fontFamily: "Lemonada" }}>Lambda School<br/>March 2020 - June 2020</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">
