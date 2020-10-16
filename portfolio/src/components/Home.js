@@ -24,7 +24,7 @@ export const Home = () => {
               </section>
               <section className="experience">
                 <h3>♦ Experience ♦</h3>
-                <p style={{ textAlign: "center" }}>Click for details!</p>
+                <p style={{ textAlign: "center", color: "purple", fontSize: "1.2em", fontFamily: "Lemonada" }}>Click below for details!</p>
                 <div className="experience-btns">
                   <TeamLead />
                   <POC />
