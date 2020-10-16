@@ -38,6 +38,23 @@
   opacity: .7;
 }
 
+.artifacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%
+}
+
+.artifacts a {
+  text-decoration: none;
+  color: #701dd6;
+}
+
+.intro-text {
+  margin: 5%;
+  font-family: "Lemonada";
+  line-height: 1.6;
+}
+
 .skills, .experience, .education {
   margin: 5%;
 }
@@ -53,6 +70,7 @@
 
 .experience-bullets {
   line-height: 1em;
+  font-family: "Kufam";
 }
 
 @media(max-width: 700px) {

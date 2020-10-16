@@ -53,12 +53,12 @@ export default function TeamLead() {
 
   return (
     <div>
-      <Button variant="outlined" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
+      <Button variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
         • Lambda School •<br/>Team Lead
       </Button>
       <Dialog onClose={handleClose} open={open}>
-        <DialogTitle onClose={handleClose}>
-          Lambda School<br/>March 2020 - June 2020
+        <DialogTitle onClose={handleClose} >
+          <span style={{ fontFamily: "Lemonada" }}>Lambda School<br/>March 2020 - June 2020</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">

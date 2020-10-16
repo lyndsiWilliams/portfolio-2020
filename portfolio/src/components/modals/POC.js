@@ -53,12 +53,12 @@ export default function POC() {
 
   return (
     <div style={{ marginTop: "2%" }}>
-      <Button variant="outlined" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
+      <Button variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
         • PRO Unlimited (EA) •<br/>Quality Assurance Tester<br/>Point of Contact
       </Button>
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle onClose={handleClose}>
-          PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013
+        <span style={{ fontFamily: "Lemonada" }}>PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">
