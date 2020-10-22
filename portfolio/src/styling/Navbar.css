@@ -33,3 +33,7 @@ header {
   width: 700px;
   margin: 0 0 1% 0;
 }
+
+.title-card h2 {
+  padding-bottom: 2%;
+}
