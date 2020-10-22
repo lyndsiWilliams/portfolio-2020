@@ -37,3 +37,21 @@ header {
 .title-card h2 {
   padding-bottom: 2%;
 }
+
+@media(max-width: 700px) {
+  .title-card {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .title-card {
+    width: 400px;
+  }
+}
+
+@media(max-width: 400px) {
+  .title-card {
+    width: 350px;
+  }
+}
