@@ -12,8 +12,8 @@ import { Contact } from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+          <Navbar />
           <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/projects" component={Projects} />

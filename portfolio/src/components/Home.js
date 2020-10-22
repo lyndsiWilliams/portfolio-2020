@@ -11,31 +11,9 @@ import meBlue from '../images/meBlue.jpg';
 export const Home = () => {
     return (
       <div className="card-wrapper">
-        <div className="name-title">
-          <h1>Lyndsi Kay Williams</h1>
-          <h2>Full Stack Web Developer</h2>
-        </div>
         <section className="intro-card">
             <img src={meBlue} alt="Lyndsi Kay Williams" className="home-pic" />
             <div className="text-wrapper">
-              <div className="artifacts">
-                <a
-                  href="https://www.linkedin.com/in/lyndsiwilliams/"
-                  target="_blank"
-                >LinkedIn</a> | 
-                <a
-                  href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/edit?usp=sharing"
-                  target="_blank"
-                >Resume</a> | 
-                <a
-                  href="mailto:lyndsikaywilliams@gmail.com"
-                  target="_blank"
-                >Email</a> | 
-                <a
-                  href="https://github.com/lyndsiWilliams"
-                  target="_blank"
-                >GitHub</a>
-              </div>
               <section className="intro-text">
                 I am a full-stack web developer with a strong love for Front End. My passion for programming shows in my late-night adventures getting lost in my latest project. I ensure sustainable working practices by investing in breaks that typically involve video games. The Pomodoro technique will save your life in this career!
               </section>
