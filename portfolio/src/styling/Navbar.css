@@ -7,7 +7,9 @@ header {
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
-  width: 100%
+  width: 100%;
+  border-bottom: solid gray 1px;
+  margin-bottom: 1%;
 }
 
 .nav-bar a {
@@ -36,6 +38,10 @@ header {
 
 .title-card h2 {
   padding-bottom: 2%;
+}
+
+.artifacts {
+  border-bottom: solid gray 1px;
 }
 
 @media(max-width: 700px) {
