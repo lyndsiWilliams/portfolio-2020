@@ -11,14 +11,14 @@ export const Projects = () => {
       <div className="project-card">
         <div className="link-btns">
           <a
-            href="https://b.citrics.dev/"
+            href="https://citrics.netlify.app/"
             target="_blank"
             style={{ borderTopLeftRadius: "20px" }}
           >
             Deployment
           </a>
           <a
-            href="https://github.com/Lambda-School-Labs/Labs26-Citrics-FE-TeamB"
+            href="https://github.com/labs26-citrics/Labs26-Citrics-FE-TeamB"
             target="_blank"
             style={{ borderTopRightRadius: "20px" }}
           >
