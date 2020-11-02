@@ -19,7 +19,7 @@ export const Navbar = () => {
             target="_blank"
           >LinkedIn</a> | 
           <a
-            href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/view"
             target="_blank"
           >Resume</a> | 
           <a
