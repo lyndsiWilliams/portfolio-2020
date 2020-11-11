@@ -29,7 +29,14 @@ export const Projects = () => {
             Github
           </a>
         </div>
-        <img src={citrics} alt="Citrics home page" className="citrics-pic" />
+        <a
+          href="https://citrics.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-img"
+        >
+          <img src={citrics} alt="Citrics home page" className="project-img" />
+        </a>
         <h3>Citrics / Lambda labs project</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | Redux | Ant.Design</h4>
         <div className="description">
@@ -60,7 +67,14 @@ export const Projects = () => {
             Github
           </a>
         </div>
-        <img src={medCabinet} alt="Med Cabinet home page" className="med-cabinet-pic" />
+        <a
+          href="https://med-cabinet-3.now.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-img"
+        >
+          <img src={medCabinet} alt="Med Cabinet home page" className="project-img" />
+        </a>
         <h3>Med Cabinet / React II developer</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | Redux</h4>
         <div className="description">
@@ -73,7 +87,7 @@ export const Projects = () => {
       <div className="project-card">
         <div className="link-btns">
           <a
-            href="https://lyndsis-game-of-life.now.sh"
+            href="https://lyndsis-game-of-life.now.sh/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ borderTopLeftRadius: "20px" }}
@@ -89,7 +103,14 @@ export const Projects = () => {
             Github
           </a>
         </div>
-        <img src={conway} alt="My version of Conway's Game of Life home page" className="conway-pic" />
+        <a
+          href="https://lyndsis-game-of-life.now.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-img"
+        >
+          <img src={conway} alt="My version of Conway's Game of Life home page" className="project-img" />
+        </a>
         <h3>Conway’s Game of Life / Personal project</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | CSS</h4>
         <div className="description">
