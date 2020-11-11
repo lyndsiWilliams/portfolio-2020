@@ -78,6 +78,11 @@
   padding-left: 15%;
 }
 
+.lambda-btn img {
+  width: 75%;
+  margin: -5%;
+}
+
 @media(max-width: 700px) {
   .name-title {
     width: 500px;

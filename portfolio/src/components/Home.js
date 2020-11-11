@@ -7,6 +7,7 @@ import POC from './modals/POC';
 // Styling
 import '../styling/Home.css';
 import meBlue from '../images/meBlue.jpg';
+import lambdaBadge from '../images/lambdaBadge.png';
 
 
 export const Home = () => {
@@ -36,6 +37,11 @@ export const Home = () => {
               <p>Full Stack Web Development & Computer Science</p>
               <p>Lambda School is a 9+ month accelerated program with an immersive (full-time, 40+ hours/week) hands-on curriculum with a focus on computer science, software engineering, and web development.</p>
               <div className="lambda-btn">
+                <img
+                  src={lambdaBadge}
+                  alt="Full-Stack Web Development + Technical Interviewing Lambda School badge"
+                  className="badge-pic"
+                />
                 <Button
                   variant="contained"
                   color="secondary"
