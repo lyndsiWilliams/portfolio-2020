@@ -73,6 +73,11 @@
   font-family: "Kufam";
 }
 
+.lambda-btn {
+  width: 400px;
+  padding-left: 15%;
+}
+
 @media(max-width: 700px) {
   .name-title {
     width: 500px;
@@ -84,6 +89,11 @@
 
   .home-pic {
     width: 400px;
+  }
+
+  .lambda-btn {
+    width: 300px;
+    padding-left: 13%;
   }
 }
 
@@ -99,6 +109,10 @@
   .home-pic {
     width: 300px;
   }
+
+  .lambda-btn {
+    width: 250px;
+  }
 }
 
 @media(max-width: 400px) {
@@ -112,5 +126,9 @@
 
   .home-pic {
     width: 250px;
+  }
+
+  .lambda-btn {
+    padding-left: 6%;
   }
 }
