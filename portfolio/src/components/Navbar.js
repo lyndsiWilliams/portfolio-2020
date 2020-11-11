@@ -17,18 +17,22 @@ export const Navbar = () => {
           <a
             href="https://www.linkedin.com/in/lyndsiwilliams/"
             target="_blank"
+            rel="noopener noreferrer"
           >LinkedIn</a> | 
           <a
             href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/edit?usp=sharing"
             target="_blank"
+            rel="noopener noreferrer"
           >Resume</a> | 
           <a
             href="mailto:lyndsikaywilliams@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >Email</a> | 
           <a
             href="https://github.com/lyndsiWilliams"
             target="_blank"
+            rel="noopener noreferrer"
           >GitHub</a>
         </div>
         <h1>Lyndsi Kay Williams</h1>

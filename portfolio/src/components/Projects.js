@@ -1,8 +1,10 @@
 // React
 import React from 'react';
-import { Link } from 'react-router-dom';
 // Styling
 import '../styling/Projects.css';
+import citrics from '../images/citrics.jpg';
+import medCabinet from '../images/medCabinet.png';
+import conway from '../images/conway.png';
 
 
 export const Projects = () => {
@@ -11,8 +13,9 @@ export const Projects = () => {
       <div className="project-card">
         <div className="link-btns">
           <a
-            href="https://b.citrics.dev/"
+            href="https://citrics.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopLeftRadius: "20px" }}
           >
             Deployment
@@ -20,18 +23,20 @@ export const Projects = () => {
           <a
             href="https://github.com/Lambda-School-Labs/Labs26-Citrics-FE-TeamB"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopRightRadius: "20px" }}
           >
             Github
           </a>
         </div>
+        <img src={citrics} alt="Citrics home page" className="citrics-pic" />
         <h3>Citrics / Lambda labs project</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | Redux | Ant.Design</h4>
         <div className="description">
           <p>An app designed to help users research and compare cities while searching for a new home.</p>
           <p>• Collaborated with 4 web and 2 data science team members during an 8-week simulated work environment</p>
-          <p>• Constructed and maintained the team <span href="https://whimsical.com/341zvP6EuiJdMGJt3neFJa">flowchart</span> and <span href="https://whimsical.com/T5VcCfKv8TwyKzgjfUnAeE">wireframe</span></p>
-          <p>• Solely responsible for creating and styling the team’s <span href="https://b.citrics.dev/about">About page</span></p>
+          <p>• Constructed and maintained the team <a href="https://whimsical.com/341zvP6EuiJdMGJt3neFJa" target="_blank" rel="noopener noreferrer">flowchart</a> and <a href="https://whimsical.com/T5VcCfKv8TwyKzgjfUnAeE" target="_blank" rel="noopener noreferrer">wireframe</a></p>
+          <p>• Solely responsible for creating and styling the team’s <a href="https://citrics.netlify.app/about" target="_blank" rel="noopener noreferrer">About page</a></p>
           <p>• Utilized the Redux state management system to manage data on the front end</p>
           <p>• Communicated with our team project lead in order to touch base with our stakeholder, implementing any changes to properly implement his product vision</p>
         </div>
@@ -41,6 +46,7 @@ export const Projects = () => {
           <a
             href="https://med-cabinet-3.now.sh/"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopLeftRadius: "20px" }}
           >
             Deployment
@@ -48,11 +54,13 @@ export const Projects = () => {
           <a
             href="https://github.com/bw-med-cabinet-3/Front-End"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopRightRadius: "20px" }}
           >
             Github
           </a>
         </div>
+        <img src={medCabinet} alt="Med Cabinet home page" className="med-cabinet-pic" />
         <h3>Med Cabinet / React II developer</h3>
         <h4 style={{ textAlign: "center" }}>Skills | Utilized | On | Project</h4>
         <div className="description">
@@ -67,6 +75,7 @@ export const Projects = () => {
           <a
             href="https://lyndsis-game-of-life.now.sh"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopLeftRadius: "20px" }}
           >
             Deployment
@@ -74,11 +83,13 @@ export const Projects = () => {
           <a
             href="https://github.com/lyndsiWilliams/React-Redux-App"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ borderTopRightRadius: "20px" }}
           >
             Github
           </a>
         </div>
+        <img src={conway} alt="My version of Conway's Game of Life home page" className="conway-pic" />
         <h3>Conway’s Game of Life / Personal project</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | CSS</h4>
         <div className="description">
