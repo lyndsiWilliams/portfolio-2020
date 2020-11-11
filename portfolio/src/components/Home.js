@@ -54,9 +54,9 @@ export const Home = () => {
                   Check out my verified Full-Stack Web Development + Technical Interviewing badge issued by Lambda School!
                 </Button>
               </div>
-              <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012 (Incomplete)</h4>
+              <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012</h4>
               <p>Associate of Applied Science, Entertainment Technology - Game Design</p>
-              <h4>Pensacola Junior College, Pensacola FL<br/>2008-2010 (Incomplete)</h4>
+              <h4>Pensacola Junior College, Pensacola FL<br/>2008-2010</h4>
               <p>Associate of Arts - AA, Computer Science</p>
             </section>
           </div>
