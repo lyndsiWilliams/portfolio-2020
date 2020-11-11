@@ -27,7 +27,7 @@
   background-image: linear-gradient(to right, #CBA0F1, #ddd7ff, #CBA0F1);
   transition: opacity .75s;
   font-size: 1.5em;
-  padding: 1% 0;
+  padding: 2% 0;
 }
 
 .link-btns a:hover {

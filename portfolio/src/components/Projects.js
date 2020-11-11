@@ -62,7 +62,7 @@ export const Projects = () => {
         </div>
         <img src={medCabinet} alt="Med Cabinet home page" className="med-cabinet-pic" />
         <h3>Med Cabinet / React II developer</h3>
-        <h4 style={{ textAlign: "center" }}>Skills | Utilized | On | Project</h4>
+        <h4 style={{ textAlign: "center" }}>ReactJS | Redux</h4>
         <div className="description">
           <p>An app designed to help users find the best medical marijuana strain for their needs.</p>
           <p>• Collaborated with 3 web and 3 data science team members during a 4-day sprint</p>

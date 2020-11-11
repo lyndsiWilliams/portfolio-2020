@@ -1,5 +1,6 @@
-// React
+// Package imports
 import React from 'react';
+import Button from '@material-ui/core/Button';
 // Components
 import TeamLead from './modals/TeamLead';
 import POC from './modals/POC';
@@ -34,9 +35,22 @@ export const Home = () => {
               <h4>Lambda School, Remote<br/>September 2019 - September 2020</h4>
               <p>Full Stack Web Development & Computer Science</p>
               <p>Lambda School is a 9+ month accelerated program with an immersive (full-time, 40+ hours/week) hands-on curriculum with a focus on computer science, software engineering, and web development.</p>
-              <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012</h4>
+              <div className="lambda-btn">
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  style={{ fontFamily: "Kufam", borderWidth: '4px'}}
+                  href="https://www.youracclaim.com/badges/f20e1df7-2a07-477e-887f-06ef174c9887/public_url"
+                  alt="Full-Stack Web Development + Technical Interviewing badge issued by Lambda School"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Check out my verified Full-Stack Web Development + Technical Interviewing badge issued by Lambda School!
+                </Button>
+              </div>
+              <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012 (Incomplete)</h4>
               <p>Associate of Applied Science, Entertainment Technology - Game Design</p>
-              <h4>Pensacola Junior College, Pensacola FL<br/>2008-2010</h4>
+              <h4>Pensacola Junior College, Pensacola FL<br/>2008-2010 (Incomplete)</h4>
               <p>Associate of Arts - AA, Computer Science</p>
             </section>
           </div>
