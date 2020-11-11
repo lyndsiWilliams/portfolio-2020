@@ -95,7 +95,7 @@ export const Projects = () => {
             Deployment
           </a>
           <a
-            href="https://github.com/lyndsiWilliams/React-Redux-App"
+            href="https://github.com/lyndsiWilliams/conways-game-of-life"
             target="_blank"
             rel="noopener noreferrer"
             style={{ borderTopRightRadius: "20px" }}
