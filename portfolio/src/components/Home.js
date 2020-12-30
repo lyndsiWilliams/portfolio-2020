@@ -21,7 +21,7 @@ export const Home = () => {
             </section>
             <section className="skills">
               <h3>♦ Skills ♦</h3>
-              <p>React/Redux | Jest/Cypress Unit Testing | RESTful API | Deployment | Git | NodeJS | Express | SQLite3 | Javascript | Python | HTML | CSS | LESS/SASS | Agile Methodology | MVC architecture</p>
+              <p>React/Redux | Jest/Cypress Unit Testing | RESTful API | Deployment | Git | NodeJS | Express | SQL | GraphQL | Javascript | Python | HTML | CSS | LESS/SASS | Agile Methodology</p>
             </section>
             <section className="experience">
               <h3>♦ Experience ♦</h3>
