@@ -53,7 +53,7 @@ export default function POC() {
 
   return (
     <div style={{ marginTop: "2%" }}>
-      <Button variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
+      <Button data-testid="POCmodal" variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
         • PRO Unlimited (EA) •<br/>Quality Assurance Tester<br/>Point of Contact
       </Button>
       <Dialog onClose={handleClose} open={open}>

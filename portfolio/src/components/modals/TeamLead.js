@@ -53,7 +53,7 @@ export default function TeamLead() {
 
   return (
     <div>
-      <Button variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
+      <Button data-testid="TLmodal" variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
         • Lambda School •<br/>Team Lead
       </Button>
       <Dialog onClose={handleClose} open={open}>
