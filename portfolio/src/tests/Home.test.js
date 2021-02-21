@@ -13,19 +13,19 @@ describe('Home component tests', () => {
     const { getByAltText } = render(<Home />);
     const photo = getByAltText('Lyndsi Kay Williams');
 
-    expect(photo).toBeTruthy();
+    expect(photo).toBeInTheDocument();
   });
   it('renders the intro text', () => {
     const { getByText } = render(<Home />);
     const intro = getByText(introText);
 
-    expect(intro).toBeTruthy();
+    expect(intro).toBeInTheDocument();
   });
   it('renders the skills', () => {
     const { getByText } = render(<Home />);
     const skills = getByText(skillsText);
 
-    expect(skills).toBeTruthy();
+    expect(skills).toBeInTheDocument();
   });
   it('renders 2 experience modal buttons', () => {
     const { getByTestId } = render(<Home />);
@@ -55,6 +55,6 @@ describe('Home component tests', () => {
     const { getByAltText } = render(<Home />);
     const lambdaBadge = getByAltText('Full-Stack Web Development + Technical Interviewing Lambda School badge');
 
-    expect(lambdaBadge).toBeTruthy();
+    expect(lambdaBadge).toBeInTheDocument();
   });
 });
