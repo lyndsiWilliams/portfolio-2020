@@ -13,7 +13,7 @@ export const Navbar = () => {
         <Link to="/projects">Projects</Link>
       </div>
       <div className="title-card">
-        <div className="artifacts">
+        <div className="artifacts" data-testid="artifacts">
           <a
             href="https://www.linkedin.com/in/lyndsiwilliams/"
             target="_blank"
