@@ -25,7 +25,17 @@ export const Home = () => {
             </section>
             <section className='experience'>
               <h3>♦ Experience ♦</h3>
-              <p style={{ textAlign: 'center', color: '#701dd6', fontSize: '1.2em', fontFamily: 'Lemonada' }}>Click each job for details!</p>
+              <p
+                style={{
+                  textAlign: 'center',
+                  color: '#701dd6',
+                  fontSize: '1.2em',
+                  fontFamily: "'Major Mono Display', monospace",
+                  fontWeight: 'bold'
+                }}
+              >
+                Click each job for Details!
+              </p>
               <div className='experience-btns' data-testid='experience-btns'>
                 <TeamLead />
                 <POC />

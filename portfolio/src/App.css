@@ -43,7 +43,8 @@ html {
 }
 
 h1 {
-    font-family: 'Lemonada', cursive;
+    /* font-family: 'Lemonada', cursive; */
+    font-family: 'Major Mono Display', monospace;
     font-size: 3em;
     font-weight: 400;
 }
