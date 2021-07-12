@@ -51,7 +51,7 @@ export const Home = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Check out my verified Full-Stack Web Development + Technical Interviewing badge issued by Lambda School
+                  Full-Stack Web Development + Technical Interviewing badge issued by Lambda School
                 </Button>
               </div>
               <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012</h4>
