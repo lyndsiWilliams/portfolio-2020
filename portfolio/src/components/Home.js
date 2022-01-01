@@ -36,9 +36,9 @@ export const Home = () => {
                 style={{
                   textAlign: 'center',
                   color: '#701dd6',
-                  fontSize: '1.2em',
-                  fontFamily: "'Major Mono Display', monospace",
-                  fontWeight: 'bold'
+                  fontSize: '1.7em',
+                  fontFamily: "'Bubblegum Sans', cursive",
+                  fontWeight: '400'
                 }}
               >
                 Click each job for Details!
@@ -50,13 +50,13 @@ export const Home = () => {
             </section>
             <section className='education' data-testid='education'>
               <h3>♦ Education ♦</h3>
-              <h4>Lambda School, Remote<br/>September 2019 - September 2020</h4>
+              <h4>Bloom Institute of Technology (formerly Lambda School), Remote<br/>September 2019 - September 2020</h4>
               <p>Full Stack Web Development & Computer Science</p>
-              <p>Lambda School is a 9+ month accelerated program with an immersive (full-time, 40+ hours/week) hands-on curriculum with a focus on computer science, software engineering, and web development.</p>
+              <p>Bloom Institute of Technology (formerly Lambda School) is a 9+ month accelerated program with an immersive (full-time, 40+ hours/week) hands-on curriculum with a focus on computer science, software engineering, and web development.</p>
               <div className='lambda-btn'>
                 <img
                   src={lambdaBadge}
-                  alt='Full-Stack Web Development + Technical Interviewing Lambda School badge'
+                  alt='Full-Stack Web Development + Technical Interviewing Bloom Institute of Technology (formerly Lambda School) badge'
                   className='badge-pic'
                 />
                 <Button
@@ -64,11 +64,11 @@ export const Home = () => {
                   color='secondary'
                   style={{ fontFamily: 'Kufam', borderWidth: '4px'}}
                   href='https://www.youracclaim.com/badges/f20e1df7-2a07-477e-887f-06ef174c9887/public_url'
-                  alt='Full-Stack Web Development + Technical Interviewing badge issued by Lambda School'
+                  alt='Full-Stack Web Development + Technical Interviewing badge issued by Bloom Institute of Technology (formerly Lambda School)'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Check out my verified Full-Stack Web Development + Technical Interviewing badge issued by Lambda School!
+                  Check out my verified Full-Stack Web Development + Technical Interviewing badge issued by Bloom Institute of Technology (formerly Lambda School)!
                 </Button>
               </div>
               <h4>Baton Rouge Community College, Baton Rouge LA<br/>2011-2012</h4>

@@ -37,13 +37,13 @@ export const Projects = () => {
         >
           <img src={citrics} alt="Citrics home page" className="project-img" />
         </a>
-        <h3>Citrics / Lambda labs project</h3>
+        <h3>Citrics / Bloom Institute of Technology (formerly Lambda School) labs project</h3>
         <h4 style={{ textAlign: "center" }}>ReactJS | Redux | Ant.Design</h4>
         <div className="description">
           <p>An app designed to help users research and compare cities while searching for a new home.</p>
           <p>• Collaborated with 4 web and 2 data science team members during an 8-week simulated work environment</p>
           <p>• Constructed and maintained the team <a href="https://whimsical.com/341zvP6EuiJdMGJt3neFJa" target="_blank" rel="noopener noreferrer">flowchart</a> and <a href="https://whimsical.com/T5VcCfKv8TwyKzgjfUnAeE" target="_blank" rel="noopener noreferrer">wireframe</a></p>
-          <p>• Solely responsible for creating and styling the team’s <a href="https://citrics.netlify.app/about" target="_blank" rel="noopener noreferrer">About page</a></p>
+          <p>• Solely responsible for creating and styling the team's <a href="https://citrics.netlify.app/about" target="_blank" rel="noopener noreferrer">About page</a></p>
           <p>• Utilized the Redux state management system to manage data on the front end</p>
           <p>• Communicated with our team project lead in order to touch base with our stakeholder, implementing any changes to properly implement his product vision</p>
         </div>

@@ -51,9 +51,9 @@ describe('Home component tests', () => {
 
     expect(education.childElementCount).toEqual(9);
   });
-  it('renders Lambda badge', () => {
+  it('renders Bloom Institute of Technology (formerly Lambda School) badge', () => {
     const { getByAltText } = render(<Home />);
-    const lambdaBadge = getByAltText('Full-Stack Web Development + Technical Interviewing Lambda School badge');
+    const lambdaBadge = getByAltText('Full-Stack Web Development + Technical Interviewing Bloom Institute of Technology (formerly Lambda School) School badge');
 
     expect(lambdaBadge).toBeInTheDocument();
   });
