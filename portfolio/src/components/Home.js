@@ -36,9 +36,9 @@ export const Home = () => {
                 style={{
                   textAlign: 'center',
                   color: '#701dd6',
-                  fontSize: '1.7em',
-                  fontFamily: "'Bubblegum Sans', cursive",
-                  fontWeight: '400'
+                  fontSize: '1.5em',
+                  fontFamily: "'Raleway', sans-serif",
+                  fontWeight: 'bold'
                 }}
               >
                 Click each job for Details!

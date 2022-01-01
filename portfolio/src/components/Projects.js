@@ -37,8 +37,8 @@ export const Projects = () => {
         >
           <img src={citrics} alt="Citrics home page" className="project-img" />
         </a>
-        <h3>Citrics / Bloom Institute of Technology (formerly Lambda School) labs project</h3>
-        <h4 style={{ textAlign: "center" }}>ReactJS | Redux | Ant.Design</h4>
+        <h3>Citrics</h3>
+        <h4 style={{ textAlign: "center" }}>Labs project - ReactJS | Redux | Ant.Design</h4>
         <div className="description">
           <p>An app designed to help users research and compare cities while searching for a new home.</p>
           <p>• Collaborated with 4 web and 2 data science team members during an 8-week simulated work environment</p>
@@ -75,8 +75,8 @@ export const Projects = () => {
         >
           <img src={medCabinet} alt="Med Cabinet home page" className="project-img" />
         </a>
-        <h3>Med Cabinet / React II developer</h3>
-        <h4 style={{ textAlign: "center" }}>ReactJS | Redux</h4>
+        <h3>Med Cabinet</h3>
+        <h4 style={{ textAlign: "center" }}>React II developer - ReactJS | Redux</h4>
         <div className="description">
           <p>An app designed to help users find the best medical marijuana strain for their needs.</p>
           <p>• Collaborated with 3 web and 3 data science team members during a 4-day sprint</p>
@@ -111,8 +111,8 @@ export const Projects = () => {
         >
           <img src={conway} alt="My version of Conway's Game of Life home page" className="project-img" />
         </a>
-        <h3>Conway’s Game of Life / Personal project</h3>
-        <h4 style={{ textAlign: "center" }}>ReactJS | CSS</h4>
+        <h3>Conway's Game of Life</h3>
+        <h4 style={{ textAlign: "center" }}>Computer science project - ReactJS | CSS</h4>
         <div className="description">
           <p>An app to display a deceptively simple simulation of an environment where simple rules produce great complexity over time.</p>
           <p>• Created a graph and styled the display purely with CSS</p>
