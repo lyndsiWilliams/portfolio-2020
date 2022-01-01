@@ -43,10 +43,9 @@ html {
 }
 
 h1 {
-    font-family: 'Bubblegum Sans', cursive;
-    /* font-family: 'Major Mono Display', monospace; */
-    font-size: 4em;
-    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 
