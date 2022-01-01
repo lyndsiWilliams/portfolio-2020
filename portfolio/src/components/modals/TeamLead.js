@@ -54,15 +54,15 @@ export default function TeamLead() {
   return (
     <div>
       <Button data-testid="TLmodal" variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
-        • Lambda School •<br/>Team Lead
+        • Bloom Institute of Technology (formerly Lambda School) •<br/>Team Lead
       </Button>
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle onClose={handleClose} >
-          <span style={{ fontFamily: "Lemonada" }}>Lambda School<br/>March 2020 - June 2020</span>
+          <span style={{ fontFamily: "'Bubblegum Sans', cursive", fontWeight: '400' }}>Bloom Institute of Technology (formerly Lambda School)<br/>March 2020 - June 2020</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">
-            <p style={{ textAlign: "center" }}>Team Lead - Remote</p>
+            <p style={{ textAlign: "center", fontFamily: "'Bubblegum Sans', cursive", fontSize: '1.5em', fontWeight: '400' }}>Team Lead - Remote</p>
             <p>• Provided daily feedback and issue resolution of all curriculum through slack, help, channel, and/or code review.</p>
             <p>• Delivered 1:1 feedback and code review on a weekly basis</p>
             <p>• Led a team of 7-9 students that emulates a real work environment using Agile methodology</p>

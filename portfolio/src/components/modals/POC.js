@@ -58,16 +58,16 @@ export default function POC() {
       </Button>
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle onClose={handleClose}>
-        <span style={{ fontFamily: "Lemonada" }}>PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013</span>
+        <span style={{ fontFamily: "'Bubblegum Sans', cursive", fontWeight: '400' }}>PRO Unlimited (Electronic Arts)<br/>March 2011 - March 2012, July 2012 - June 2013</span>
         </DialogTitle>
         <DialogContent dividers>
           <div className="experience-bullets">
-            <p style={{ textAlign: "center" }}>Quality Assurance Tester - Baton Rouge LA</p>
+            <p style={{ textAlign: "center", fontFamily: "'Bubblegum Sans', cursive", fontSize: '1.5em', fontWeight: '400' }}>Quality Assurance Tester - Baton Rouge LA</p>
             <p>• Tested video games to ensure that they met certain requirements</p>
             <p>• Found any bugs and reported them in a professional and well-explained manner</p>
             <p>• Accurately filled out tasks and time spent on those tasks in DevTest</p>
             <p>• Participated in the legal certification of multiple major Electronic Arts titles</p>
-            <p style={{ textAlign: "center", marginTop: "10%" }}>Point of Contact - Baton Rouge LA</p>
+            <p style={{ textAlign: "center", fontFamily: "'Bubblegum Sans', cursive", fontSize: '1.5em', fontWeight: '400', marginTop: "10%" }}>Point of Contact - Baton Rouge LA</p>
             <p>• Communicated with developers to ensure issues were fixed in a timely manner</p>
             <p>• Held attendance and managed scheduling for a team of 50</p>
             <p>• Distributed various reports dealing with issues and stability of the product being tested</p>
