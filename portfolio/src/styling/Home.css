@@ -53,10 +53,15 @@
 .intro-text {
   margin: 7% 5% 5% 5%;
   line-height: 1.6;
+  text-align: left;
 }
 
 .skills, .experience, .education {
   margin: 5%;
+}
+
+.skills p {
+  text-align: left;
 }
 
 .education p, .experience p, h4 {

@@ -17,11 +17,18 @@ export const Home = () => {
           <img src={meBlue} alt='Lyndsi Kay Williams' className='home-pic' />
           <div className='text-wrapper'>
             <section className='intro-text' >
-              I am a full-stack web developer with a strong love for Front End. My passion for programming shows in my late-night adventures getting lost in my latest project. I ensure sustainable working practices by investing in breaks that typically involve video games. The Pomodoro technique will save your life in this career!
+              <p>I am a front end-leaning full-stack software engineer. I have a passion for accessibility, testing, infrastructure, and styling.</p>
+              <p>I love to learn, knowledge-share, and mentor - these three passions are self-feeding. The more I learn, the more I can mentor others. Through that knowledge-sharing, I can learn even more through my mentees. It's a beautiful cycle.</p>
+              <p>Below is a list of skills in which I've had the pleasure of indulging during my career so far.</p>
             </section>
             <section className='skills'>
               <h3>♦ Skills ♦</h3>
-              <p>React/Redux | Jest/Cypress Unit Testing | RESTful API | Deployment | Git | NodeJS | Express | SQL | GraphQL | Javascript | Typescript | Python | HTML | CSS | LESS/SASS | Agile Methodology</p>
+              <h4>Front end</h4>
+              <p>React, Redux, React Testing Library, Jest, Cypress, Javascript, Typescript, HTML, CSS, LESS/SASS</p>
+              <h4>Back end</h4>
+              <p>Python, NodeJS, Express, SQL</p>
+              <h4>Other relative skills</h4>
+              <p>RESTful API, GraphQL, Deployment, Git, Agile Methodology</p>
             </section>
             <section className='experience'>
               <h3>♦ Experience ♦</h3>
