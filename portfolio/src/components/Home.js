@@ -19,7 +19,6 @@ export const Home = () => {
             <section className='intro-text' >
               <p>I am a front end-leaning full-stack software engineer. I have a passion for accessibility, testing, infrastructure, and styling.</p>
               <p>I love to learn, knowledge-share, and mentor - these three passions are self-feeding. The more I learn, the more I can mentor others. Through that knowledge-sharing, I can learn even more through my mentees. It's a beautiful cycle.</p>
-              <p>Below is a list of skills in which I've had the pleasure of indulging during my career so far.</p>
             </section>
             <section className='skills'>
               <h3>♦ Skills ♦</h3>
