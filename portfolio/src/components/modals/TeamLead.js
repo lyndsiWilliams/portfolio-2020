@@ -14,7 +14,7 @@ export default function TeamLead() {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: "2%" }}>
       <Button data-testid="TLmodal" variant="contained" color="secondary" onClick={handleClickOpen} style={{ fontFamily: "Kufam", borderWidth: '4px' }}>
         • Bloom Institute of Technology (formerly Lambda School) •<br/>Team Lead
       </Button>
