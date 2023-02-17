@@ -24,11 +24,11 @@ export const Home = () => {
             <section className='skills'>
               <h3>♦ Skills ♦</h3>
               <h4>Front end</h4>
-              <p>React, Redux, React Testing Library, Jest, Cypress, Javascript, Typescript, HTML, CSS, LESS/SASS</p>
+              <p>React, Redux, React Testing Library, Jest, Cypress, Javascript, Typescript, HTML, CSS, LESS/SASS, Emotion</p>
               <h4>Back end</h4>
               <p>Python, NodeJS, Express, SQL</p>
               <h4>Other relative skills</h4>
-              <p>RESTful API, GraphQL, Deployment, Git, Agile Methodology</p>
+              <p>RESTful API, GraphQL, Deployment, Git, Agile/Scrum Methodology</p>
             </section>
             <section className='experience'>
               <h3>♦ Experience ♦</h3>
