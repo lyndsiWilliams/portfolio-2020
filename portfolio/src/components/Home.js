@@ -18,8 +18,7 @@ export const Home = () => {
           <img src={meBlue} alt='Lyndsi Kay Williams' className='home-pic' />
           <div className='text-wrapper'>
             <section className='intro-text' >
-              <p>I am a front end-leaning full-stack software engineer. I have a passion for accessibility, testing, infrastructure, and styling.</p>
-              <p>I love to learn, knowledge-share, and mentor - these three passions are self-feeding. The more I learn, the more I can mentor others. Through that knowledge-sharing, I can learn even more through my mentees. It's a beautiful cycle.</p>
+              <p>I am a detail-oriented frontend software engineer with a passion for creating user-friendly and visually appealing websites and applications. With over 2 years of experience in the industry, I have a broad understanding of web development technologies, including HTML, CSS, functional styling, JavaScript/TypeScript, and React. I am dedicated to writing clean, maintainable code and am always on the lookout for ways to improve the user experience. I am a strong communicator and a team player, and I am always willing to go the extra mile to ensure that the end product meets the client's needs.</p>
             </section>
             <section className='skills'>
               <h3>♦ Skills ♦</h3>
