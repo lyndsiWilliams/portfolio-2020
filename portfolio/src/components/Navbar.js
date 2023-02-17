@@ -36,7 +36,7 @@ export const Navbar = () => {
           >GitHub</a>
         </div>
         <h1>Lyndsi Kay Williams</h1>
-        <h2>Full Stack Web Developer</h2>
+        <h2>Frontend Web Developer</h2>
       </div>
     </header>
   );
