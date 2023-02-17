@@ -2,6 +2,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 // Components
+import Preset from './modals/Preset';
 import TeamLead from './modals/TeamLead';
 import POC from './modals/POC';
 // Styling
@@ -43,6 +44,7 @@ export const Home = () => {
                 Click each job for Details!
               </p>
               <div className='experience-btns' data-testid='experience-btns'>
+                <Preset />
                 <TeamLead />
                 <POC />
               </div>
