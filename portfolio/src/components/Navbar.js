@@ -1,9 +1,8 @@
 // React
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 // Styling
-import '../styling/Navbar.css';
-
+import "../styling/Navbar.css";
 
 export const Navbar = () => {
   return (
@@ -18,22 +17,25 @@ export const Navbar = () => {
             href="https://www.linkedin.com/in/lyndsiwilliams/"
             target="_blank"
             rel="noopener noreferrer"
-          >LinkedIn</a> | 
-          <a
-            href="https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/view"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Resume</a> | 
+          >
+            LinkedIn
+          </a>{" "}
+          |<Link to="/resume">Resume</Link> |
           <a
             href="mailto:lyndsikaywilliams@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-          >Email</a> | 
+          >
+            Email
+          </a>{" "}
+          |
           <a
             href="https://github.com/lyndsiWilliams"
             target="_blank"
             rel="noopener noreferrer"
-          >GitHub</a>
+          >
+            GitHub
+          </a>
         </div>
         <h1>Lyndsi Kay Williams</h1>
         <h2>Frontend Software Engineer</h2>
