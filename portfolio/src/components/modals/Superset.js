@@ -14,7 +14,7 @@ export default function Superset() {
   };
 
   return (
-    <div style={{ marginTop: "2%" }}>
+    <div>
       <Button
         data-testid="TLmodal"
         variant="contained"
