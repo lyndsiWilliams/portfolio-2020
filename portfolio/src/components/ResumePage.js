@@ -8,6 +8,7 @@ const ResumePage = () => {
         title="file"
         width="80%"
         height="626px"
+        style={{ maxWidth: "834px" }}
       ></iframe>
     </div>
   );
