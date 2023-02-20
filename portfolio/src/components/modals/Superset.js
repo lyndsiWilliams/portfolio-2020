@@ -14,7 +14,7 @@ export default function Superset() {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: "2%" }}>
       <Button
         data-testid="TLmodal"
         variant="contained"
@@ -45,7 +45,7 @@ export default function Superset() {
                 fontWeight: "bold",
               }}
             >
-              Open Source Frontend Software Engineer - Remote
+              Apache Superset Committer - Remote
             </p>
             <p>• Implement feature work with clean, maintainable code</p>
             <p>
