@@ -1,16 +1,10 @@
 import React from "react";
 
-const ResumePage = ({ source }) => {
-  if (!source) {
-    return <div>Loading...</div>;
-  }
-
-  const src =
-    "https://docs.google.com/document/d/1sIeUKgb66eY6x4j_ds-gc3JoEtYQwGtT8Axwcoa0t6Q/view";
+const ResumePage = () => {
   return (
     <div>
       <iframe
-        src={"https://docs.google.com/viewer?url=" + src + "&embedded=true"}
+        src="https://docs.google.com/document/d/e/2PACX-1vRERMPCJxpPmykMYDJBhpiWHkq2_h-846yIRP1Ivti76hCfus1pHb-azUg96dGlVGmxr-h4c6VdFp8i/pub?embedded=true"
         title="file"
         width="100%"
         height="600"
